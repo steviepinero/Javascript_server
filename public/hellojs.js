@@ -264,3 +264,26 @@ if (hoverboards > 100) {
 //   puts "#{speed}mph!"
 //   puts "ZOOOOOM" if speed == 88
 // end
+
+console.log("Lets Go!");
+for (var i = 0; i < 89; i++) {
+  console.log(i + "mph");
+
+  if (i === 88) {
+    console.log("ZOOOOOM");
+  }
+}
+
+
+
+
+
+
+
+
+//function problem
+function greetingFor(name){
+  console.log("Hello " + name + "!");
+}
+
+greetingFor("stevie")
